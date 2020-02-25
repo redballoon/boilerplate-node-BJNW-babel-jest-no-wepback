@@ -1,0 +1,52 @@
+{
+  "name": "boilerplate-node-bjnw-babel-jest-no-wepback",
+  "version": "1.0.0",
+  "description": "A boilerplate to quickly bootstrap your next experiment Node project. When you only need Babel (to use import, async), Jest, and don't require Webpack yet.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redballoon/boilerplate-node-BJNW-babel-jest-no-wepback.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "bootstrap",
+    "node",
+    "runtime",
+    "no-webpack",
+    "babel",
+    "jest"
+  ],
+  "author": "redballoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redballoon/boilerplate-node-BJNW-babel-jest-no-wepback/issues"
+  },
+  "homepage": "https://github.com/redballoon/boilerplate-node-BJNW-babel-jest-no-wepback#readme",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          [
+            "@babel/preset-env",
+            {
+              "modules": "commonjs",
+              "targets": {
+                "node": "current"
+              }
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "jest": "^25.1.0"
+  }
+}

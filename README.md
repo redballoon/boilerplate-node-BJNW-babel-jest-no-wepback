@@ -16,6 +16,11 @@ You can write **Jest** test files with **ES6** syntax.
 npm run test
 ```
 
+You can debug your **Jest** test files. Place a debugger keyword inside your test.
+```
+npm run test:debug
+```
+
 Don't have any tests ? You can also run your **JS** file directly.
 ```
 npm run execute-file example/index.js

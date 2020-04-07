@@ -24,6 +24,7 @@
   "homepage": "https://github.com/redballoon/boilerplate-node-BJNW-babel-jest-no-wepback#readme",
   "scripts": {
     "test": "npx jest",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "execute-file": "./node_modules/@babel/node/bin/babel-node.js --presets @babel/preset-env"
   },
   "babel": {
